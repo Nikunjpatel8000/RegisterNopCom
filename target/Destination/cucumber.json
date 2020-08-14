@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9789764148,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to register successfully.",
+        "description": "",
+        "id": "register-feature;user-should-be-able-to-register-successfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 57570449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128165466,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "MyStepDeft.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3107343146,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Register button",
+            "match": {
+              "location": "MyStepDeft.user_click_on_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4462614965,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter all required details",
+            "match": {
+              "location": "MyStepDeft.user_enter_all_required_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3012456806,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Register button",
+            "match": {
+              "location": "MyStepDeft.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62066720,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user be able to see Your registration completed message",
+            "match": {
+              "location": "MyStepDeft.user_be_able_to_see_Your_registration_completed_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Register.feature"
+  }
+]
